@@ -17,13 +17,16 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png"  class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Accomplishments</a></li>
+                    <li><a href="#">Achievements</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-regular fa fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa fa-bars" onclick="openmenu()"></i>
+                
             </nav>
 
 <!-- --------ABOUT-------- -->
@@ -83,7 +86,7 @@
 <!-- --------SERVICES-------- -->
             <div id="accomplishments">
                 <div class="container">
-                    <h1 class="subtitle">Accomplishments</h1>
+                    <h1 class="subtitle">Achievements</h1>
                     <div class="accomplishments-list">
                         <div>
                             <i class="fa-solid fa fa-trophy"></i>
@@ -159,7 +162,7 @@
             </div>         -->
             <div id="contact">
                 <div class="container">
-                    <h1 class="subtitle">CONATCT ME</h1>
+                    <h1 class="subtitle">Contact Me</h1>
                     <div class="accomplishments-list">
                         <div>
                             <i class="fa-solid fa fa-location-arrow"></i>
@@ -172,9 +175,13 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </div>
                         <div>
-                            <i class="fa-solid fa fa-share-nodes"></i>
+                            <i class="fa-solid fa fa-handshake"></i>                      
                             <h2>Social Profiles</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <p class="social-icons">
+                                <a href="#"><i class="fa-brands fa fa-linkedin" style="font-size: 30px;"></i></a>
+                                <a href="#"><i class="fa-brands fa fa-github" style="font-size: 30px;"></i></a>
+                                <a href="#"><i class="fa-brands fa fa-instagram" style="font-size: 30px;"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +202,16 @@
         event.currentTarget.classList.add("active-link")
         document.getElementById(tabname).classList.add("active-tab");
     }
+</script>
 
+<script>
+    var side = document.getElementById("sidemenu");
+    function openmenu(){
+        side.style.right = "0";
+    }
+    function closemenu(){
+        side.style.right = "-200px";
+    }
 </script>
 
 </body>
