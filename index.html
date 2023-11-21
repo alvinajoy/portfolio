@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Alvina's Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -16,13 +16,13 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png"  class="logo">
+                <img src=""  class="logo">
                 <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Achievements</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#accomplishments">Achievements</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa fa-bars" onclick="openmenu()"></i>
@@ -38,12 +38,11 @@
                         </div>
                         <div class="about-col-2">
                             <h1 class="subtitle">About Me</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore 
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                exercitation ullamco laboris nisi ut aliquip ex ea 
-                                commodo consequat. Duis aute irure dolor in reprehenderit 
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            <p style="text-align: justify;">I'm a motivated aspiring professional eager to kickstart a rewarding career in the IT industry. My commitment lies in using my knowledge and skills to make meaningful impacts in this ever-evolving field.
+
+                                I graduated with a Bachelor's Degree in Computer Engineering, which has provided me with a strong academic foundation and a profound desire for continuous learning and development. Throughout my academic journey, I specialized in Web Development and gained valuable hands-on experience through internships, projects, and collaborative efforts with fellow students.
+                                
+                                I'm actively in search for opportunities where I can apply my knowledge. I'm enthusiastic about contributing my dedication, creativity, and diligence to a team that shares my passion for excellence. If you have any opportunities or wisdom to offer, I'd be thrilled to connect and glean insights from your experiences.. 
                             </p>
                                 <div class="tab-titles">
                                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -51,13 +50,24 @@
                                     <p class="tab-links" onclick="opentab('education')">Education</p>
                                 </div>
                                 <div class="tab-contents active-tab" id="skills">
-                                    <ul>
-                                        <li><span>Something</span><br>Description</li>
-                                        <li><span>Something</span><br>Description</li>
-                                        <li><span>Something</span><br>Description</li>
-                                        <!-- <li><span>Something</span><br>Description</li>
-                                        <li><span>Something</span><br>Description</li> -->
-                                    </ul>
+                                    <div class="row">
+                                        <div class="column">
+                                            <ul>
+                                                <li><i class="fab fa-python"></i><span style="color: #fff;">Python</span></li>
+                                                <li><i class="fas fa-database"></i><span style="color: #fff;">SQL</span></li>
+                                                <li><i class="fab fa-r-project"></i><span style="color: #fff;">R</span></li>
+                                                <li><i class="fas fa-file-code"></i><span style="color: #fff;">HTML/CSS</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="column">
+                                            <ul>
+                                                <li><i class="fab fa-github-square"></i><span style="color: #fff;">Github</span></li>
+                                                <li><i class="fab fa-microsoft"></i><span style="color: #fff;">Azure Devops</span></li>
+                                                <li><i class="fas fa-laptop-code"></i><span style="color: #fff;">Django</span></li>
+                                                <li><i class="fas fa-server"></i><span style="color: #fff;">Hadoop</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-contents" id="experience">
                                     <ul>
