@@ -103,17 +103,21 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
-.column {
+/* .column {
     float: left;
     width: 35%;
+    padding: 15px;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
+  .row{
+    width: 50%;
+    float: left;
+    padding: 15px;
     content: "";
     display: table;
     clear: both;
-  }
+  } */
+
 
 .column ul i{
     color: #ff004f;
@@ -131,6 +135,30 @@ nav ul li a:hover::after{
     color: #fff;
     padding: 0 0 0 20px;
     font-size: 30px;
+}
+
+.experience-icon{
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 30px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.experience-span{
+    color: #fff;
+    padding: 100px 0 0 20px;
+    font-size: 30px;
+}
+
+.experience-em{
+    color: #fff;
+    padding: 0 0 0 70px;
+    font-size: 14px;
 }
 
 .subtitle{
