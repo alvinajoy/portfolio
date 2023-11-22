@@ -103,7 +103,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
-/* .column {
+/* 1 {
     float: left;
     width: 35%;
     padding: 15px;
@@ -117,7 +117,9 @@ nav ul li a:hover::after{
     display: table;
     clear: both;
   } */
-
+.column{
+    text-decoration: none;
+}
 
 .column ul i{
     color: #ff004f;
@@ -134,8 +136,10 @@ nav ul li a:hover::after{
 .column ul li span{
     color: #fff;
     padding: 0 0 0 20px;
-    font-size: 30px;
+    font-size: 16px;
+
 }
+
 
 .experience-icon{
     color: #ff004f;
@@ -146,19 +150,22 @@ nav ul li a:hover::after{
     height: 50px;
     border-radius: 20%;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .experience-span{
     color: #fff;
-    padding: 100px 0 0 20px;
-    font-size: 30px;
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .experience-em{
     color: #fff;
     padding: 0 0 0 70px;
-    font-size: 14px;
+    font-size: 13px;
+    font-style: italic;
+
 }
 
 .subtitle{
@@ -200,11 +207,9 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 
-.tab-contents ul li span{
-    color: #c42a5b;
+/* .tab-contents ul li span{
     font-size: 16px;
-    font-weight: bold;
-}
+} */
 
 .tab-contents{
     display: none;
