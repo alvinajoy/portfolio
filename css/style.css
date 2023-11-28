@@ -80,7 +80,8 @@ nav ul li a:hover::after{
 /* -------about-------- */
 
 #about{
-    padding-top: 80px;
+    padding-top: 70px;
+    padding-right: 70px;
     color: #ababab;
 }
 
@@ -137,7 +138,7 @@ nav ul li a:hover::after{
     color: #fff;
     padding: 0 0 0 20px;
     font-size: 16px;
-
+    font-weight: bolder;
 }
 
 
@@ -150,12 +151,12 @@ nav ul li a:hover::after{
     height: 50px;
     border-radius: 20%;
     text-align: center;
-    padding-top: 10px;
+    padding: 7px;
 }
 
 .experience-span{
     color: #fff;
-    padding: 0 0 0 20px;
+    padding: 30px 30px 30px 20px;
     font-size: 16px;
     font-weight: bolder;
 }
@@ -166,6 +167,13 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-style: italic;
 
+}
+
+.education-span{
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .subtitle{
@@ -341,6 +349,11 @@ nav ul li a:hover::after{
 }
 
 /* contact */
+
+.email{
+    text-decoration: none;
+    color: #fff;
+}
 
 .social-icons a{
     font-size: 30px;
